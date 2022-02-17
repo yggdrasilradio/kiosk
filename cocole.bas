@@ -1,4 +1,4 @@
-	data "COCOLe game"
+	data "COCOLe game (Wordle)"
 	if a$ = chr$(i) then
 		gosub 2000
 		run "COCOLE.BAS"

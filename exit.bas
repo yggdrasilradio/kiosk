@@ -1,6 +1,7 @@
 	data "Exit to DECB"
 	if a$ = chr$(i) then
 		cls
-		end
+		poke &hffd8, 0
+		new
 	end if
 	i = i + 1

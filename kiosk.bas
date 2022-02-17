@@ -1,8 +1,9 @@
 
-	' Mount disk via DriveWire
+	' Mount disks via DriveWire
 	pclear 1
 	def dw = 3
 	drive 0, #0
+	drive 1, #3
 
 	' Reset machine on BREAK
 	on brk goto 1000
@@ -77,6 +78,7 @@
 	include "chart.bas"
 	include "cocosdc.bas"
 	include "cocole.bas"
+	include "scroll.bas"
 	include "exit.bas"
 	data "END"
 
