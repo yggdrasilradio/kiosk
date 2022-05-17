@@ -1,10 +1,9 @@
 
 	' Mount disks via DriveWire
-	pclear 1
 	def dw = 3
 	drive 0, #0
 	drive 1, #3
-
+	
 	' Reset machine on BREAK
 	on brk goto 1000
 
@@ -16,8 +15,8 @@
 	width 80
 
 	' Set colors for 32 column loading screen
-	palette 13, 0 	' black background
 	palette 12, 63	' white text
+	palette 13, 0 	' black background
 
 	' Set colors for 80 column screen
 	palette 0, 0  	' black background
@@ -30,7 +29,8 @@
 
 	' Kiosk menu header
 	attr 1, 0
-	print "Rick Adams Laboratories, Third Planet from the Sun"
+	print "Rick Adams Laboratories, Third Planet from the Sun";
+	'print "                CocoFEST! 2022"
 	attr 0, 0
 
 	' Read and display menu items
@@ -71,15 +71,22 @@
 	include "bombthreat.bas"
 	include "shanghai.bas"
 	include "temple.bas"
+	include "cocole.bas"
+	include "dmaze.bas"
 	include "example.bas"
 	include "os9eou.bas"
 	include "demo.bas"
 	include "game.bas"
 	include "chart.bas"
+
+	'include "tnwar.bas"
+
 	include "cocosdc.bas"
-	include "cocole.bas"
 	include "scroll.bas"
+	include "pattern.bas"
+	include "lissa.bas"
 	include "exit.bas"
+
 	data "END"
 
 	' Illegal selection

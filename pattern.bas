@@ -1,7 +1,7 @@
-	data "MrDave6309's BASIC scrolling demo"
+	data "Interference pattern"
 	if a$ = chr$(i) then
 		gosub 2000
 		drive 1
-		run "SCROLL.BAS"
+		run "PATTERN.BAS"
 	end if
 	i = i + 1

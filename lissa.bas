@@ -1,7 +1,7 @@
-	data "MrDave6309's BASIC scrolling demo"
+	data "Lissajous patterns"
 	if a$ = chr$(i) then
 		gosub 2000
 		drive 1
-		run "SCROLL.BAS"
+		run "LISSA.BAS"
 	end if
 	i = i + 1
