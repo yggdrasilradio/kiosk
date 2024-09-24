@@ -1,8 +1,8 @@
 	' Cocofest stuff
 	attr 0, 0
-	locate 5, 19
-	print "Download these games at rickadams.itch.io";
-	locate 5, 20
+	locate 14, 19
+	print "Download my games at rickadams.itch.io";
+	locate 14, 20
 	print "See my github at github.com/yggdrasilradio";
-	locate 5, 21
+	locate 14, 21
 	print "Also check out templeofrom.com";

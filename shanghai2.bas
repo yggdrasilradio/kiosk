@@ -1,7 +1,7 @@
-	data "Shanghai"
+	data "Shanghai II (requires 512K)"
 	if a$ = chr$(i) then
 		gosub 2000
 		pclear 1
-		loadm "SHANGHAI.BIN:1":exec
+		loadm "SHANG2.BIN:1"
 	end if
 	i = i + 1

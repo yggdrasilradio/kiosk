@@ -1,6 +1,7 @@
-	data "COCOLe (Wordle for Coco3)"
+	data "USR experiments"
 	if a$ = chr$(i) then
 		gosub 2000
-		run "COCOLE.BAS"
+		drive 1
+		run "USR.BAS"
 	end if
 	i = i + 1

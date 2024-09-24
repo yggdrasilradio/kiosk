@@ -1,7 +1,7 @@
-	data "MrDave6309's BASIC scrolling demo"
+	data "SGBASIC demo"
 	if a$ = chr$(i) then
 		gosub 2000
 		drive 1
-		run "SCROLL.BAS"
+		run "SGBASIC.BAS"
 	end if
 	i = i + 1

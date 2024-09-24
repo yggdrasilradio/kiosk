@@ -10,7 +10,7 @@
 		print "A strange game.  The only way to win is not to play."
 
 		' A short delay
-		for j = 1 to 70
+		for j = 1 to 150
 			x = sin(1)
 		next j
 

@@ -30,7 +30,8 @@
 	' Kiosk menu header
 	attr 1, 0
 	print "Rick Adams Laboratories, Third Planet from the Sun";
-	'print "                CocoFEST! 2022"
+'	print "                                          CocoFEST! 2024"
+	print "          Tandy Assembly 2024"
 	attr 0, 0
 
 	' Read and display menu items
@@ -53,7 +54,7 @@
 	end if
 
 	' Cocofest announcements
-	'include "cocofest.bas"
+	include "cocofest.bas"
 
 	attr 1, 0
 	locate 0, 23
@@ -67,26 +68,27 @@
 
 	' Load and run selected program
 	i = 65
-	include "omnistar.bas"
-	include "bombthreat.bas"
-	include "shanghai.bas"
 	include "temple.bas"
+	include "shanghai.bas"
+	include "shanghai2.bas"
+	include "bombthreat.bas"
+	include "omnistar.bas"
+	include "omni84.bas"
 	include "cocole.bas"
-	include "dmaze.bas"
-	include "example.bas"
-	include "os9eou.bas"
-	include "demo.bas"
-	include "game.bas"
+	include "lights.bas"
 	include "chart.bas"
-
-	'include "tnwar.bas"
-
-	include "cocosdc.bas"
-	include "scroll.bas"
-	include "pattern.bas"
-	include "lissa.bas"
+'	include "usr.bas"
+'	include "tnwar.bas"
+	include "dmaze.bas"
+'	include "maze.bas"
+'	include "example.bas"
+'	include "os9eou.bas"
+'	include "demo.bas"
+'	include "game.bas"
+'	include "cocosdc.bas"
+'	include "pattern.bas"
+'	include "sgbasic.bas"
 	include "exit.bas"
-
 	data "END"
 
 	' Illegal selection
@@ -103,7 +105,7 @@
 	print "LOADING..."
 	return
 
-	' Position menu items
+	' Position menu items in two columns
 3000	if i = 73 then
 		x = 40
 		y = 0
