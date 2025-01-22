@@ -31,7 +31,7 @@
 	attr 1, 0
 	print "Rick Adams Laboratories, Third Planet from the Sun";
 '	print "                                          CocoFEST! 2024"
-	print "          Tandy Assembly 2024"
+'	print "          Tandy Assembly 2024"
 	attr 0, 0
 
 	' Read and display menu items
@@ -54,7 +54,7 @@
 	end if
 
 	' Cocofest announcements
-	include "cocofest.bas"
+'	include "cocofest.bas"
 
 	attr 1, 0
 	locate 0, 23
@@ -80,14 +80,13 @@
 '	include "usr.bas"
 '	include "tnwar.bas"
 	include "dmaze.bas"
-'	include "maze.bas"
 '	include "example.bas"
 '	include "os9eou.bas"
-'	include "demo.bas"
 '	include "game.bas"
-'	include "cocosdc.bas"
+	include "cocosdc.bas"
 '	include "pattern.bas"
 '	include "sgbasic.bas"
+	include "foxhunt.bas"
 	include "exit.bas"
 	data "END"
 

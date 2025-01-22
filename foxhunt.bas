@@ -1,7 +1,7 @@
-	data "Maze (BASIC maze)"
+	data "Fox Hunt"
 	if a$ = chr$(i) then
 		gosub 2000
-		drive 1
-		run "MAZE.BAS"
+		drive 0
+		run "FOXHUNT.BAS"
 	end if
 	i = i + 1
