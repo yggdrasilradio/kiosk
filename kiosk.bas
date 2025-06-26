@@ -30,7 +30,7 @@
 	' Kiosk menu header
 	attr 1, 0
 	print "Rick Adams Laboratories, Third Planet from the Sun";
-'	print "                                          CocoFEST! 2024"
+	print "               CocoFEST! 2025"
 '	print "          Tandy Assembly 2024"
 	attr 0, 0
 
@@ -87,6 +87,8 @@
 '	include "pattern.bas"
 '	include "sgbasic.bas"
 	include "foxhunt.bas"
+	include "rogue.bas"
+	include "monty.bas"
 	include "exit.bas"
 	data "END"
 
