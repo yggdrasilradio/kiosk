@@ -10,6 +10,9 @@
 	' Disable cursor
 	include "disable.bas"
 
+	' Patch BASIC to fix RGB and CMD commands
+	poke &HE649, 16
+
 	' Set video mode for kiosk menu
 	rgb
 	width 80
