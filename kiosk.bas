@@ -62,6 +62,7 @@
 	attr 1, 0
 	locate 0, 23
 	print "Make a selection (press BREAK to return to this menu)";
+	attr 0, 0
 
 	' Wait for key
 30	a$ = inkey$
@@ -92,6 +93,8 @@
 	include "foxhunt.bas"
 	include "rogue.bas"
 	include "monty.bas"
+	include "chords.bas"
+	include "tictac.bas"
 	include "exit.bas"
 	data "END"
 
